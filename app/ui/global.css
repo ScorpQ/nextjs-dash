@@ -2,6 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'mecellem_bold';
+  src: url('https://www.mecellem.com/assets/fonts/Mecellem030822-Bold.woff2') format('woff2'), url('https://www.mecellem.com/assets/fonts/Mecellem030822-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'mecellem_regular';
+  src: url('https://www.mecellem.com/assets/fonts/Mecellem030822-Regular.woff2') format('woff2'), url('https://www.mecellem.com/assets/fonts/Mecellem030822-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'mecellem_semibold';
+  src: url('https://www.mecellem.com/assets/fonts/Mecellem310822-SemiBold.woff') format('woff2'), url('https://www.mecellem.com/assets/fonts/Mecellem310822-SemiBold.woff2') format('woff');
+}
+
 input[type='number'] {
   -moz-appearance: textfield;
   appearance: textfield;
@@ -16,3 +31,9 @@ input[type='number']::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
+
+body{
+  font-family: 'mecellem_bold';
+}
+
+

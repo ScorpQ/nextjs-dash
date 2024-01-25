@@ -3,7 +3,7 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev",
-    "prettier": "prettier --write --ignore-unknown .",
+    "prettier": "onchange \"**/*\" -- prettier --write --ignore-unknown {{changed}}",
     "prettier:check": "prettier --check --ignore-unknown .",
     "start": "next start"
   },
