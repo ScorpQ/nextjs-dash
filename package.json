@@ -9,6 +9,9 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.0.18",
+    "@mantine/core": "^7.5.2",
+    "@mantine/hooks": "^7.5.2",
+    "@mantinex/mantine-logo": "^1.0.1",
     "@tailwindcss/forms": "^0.5.7",
     "@types/node": "20.5.7",
     "@vercel/postgres": "^0.5.0",
